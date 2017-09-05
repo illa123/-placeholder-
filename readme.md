@@ -1,26 +1,32 @@
-Ê¹ÓÃjquery·â×°µÄÒ»¿î²å¼ş£»
-½â¾öplaceholder¼æÈİĞÔÎÊÌâ£¬¼æÈİÖÁIE6
-Ê¹ÓÃ·½·¨£º
-1¡¢ÒıÈëÎÄ¼ş
+ä½¿ç”¨jqueryå°è£…çš„ä¸€æ¬¾æ’ä»¶ï¼›
+è§£å†³placeholderå…¼å®¹æ€§é—®é¢˜ï¼Œå…¼å®¹è‡³IE6
+ä½¿ç”¨æ–¹æ³•ï¼š
+1ã€å¼•å…¥æ–‡ä»¶
    <script src="jquery-1.8.3.min.js"></script>
    <script src="jquery.placeholder.js"></script>
 
-2¡¢HTML£¨×¢Òâ£ºÎÄ±¾¿òÒ»¶¨ÒªÓÃ±êÇ©°ü¹ü£©
-  <div><input type="text" placeholder="ÇëÊäÈëÎÄ±¾"></div>
-  <div><textarea placeholder="ÇëÊäÈëÄÚÈİ"></textarea></div>
+2ã€HTMLï¼ˆæ³¨æ„ï¼šæ–‡æœ¬æ¡†ä¸€å®šè¦ç”¨æ ‡ç­¾åŒ…è£¹ï¼‰
+  <div><input type="text" placeholder="è¯·è¾“å…¥æ–‡æœ¬"></div>
+  <div><textarea placeholder="è¯·è¾“å…¥å†…å®¹"></textarea></div>
 
-3¡¢javascriptµ÷ÓÃ
+3ã€javascriptè°ƒç”¨
   <script>
-     $(function(){
-	$.placeholder();
-     });
+    $(function(){
+      $.placeholder();
+    });
 
-     //ÓĞÈı¸ö²ÎÊı£ºobj,color,fontSize
-     // $.placeholder({
-     // obj: $("input[placeholder], [placeholder], *[placeholder]").parent(),//ÎÄ±¾¿òµÄ¸¸Àà
-     // color: "#f00", //ÌáÊ¾ÎÄ×ÖµÄÄ¬ÈÏÑÕÉ«
-    // fontSize: "14px" //ÌáÊ¾ÎÄ×ÖÄ¬ÈÏ×ÖÌå´óĞ¡
-    // });
+
+     /*
+      *å‚æ•°ï¼š
+      ***obj  ç›®æ ‡å…ƒç´ ï¼ˆæ–‡æœ¬æ¡†çš„çˆ¶ç±»ï¼‰
+      ***color  æç¤ºæ–‡å­—çš„é»˜è®¤é¢œè‰²
+      ***fontSize  æç¤ºæ–‡å­—é»˜è®¤å­—ä½“å¤§å°
+      */
+      // $.placeholder({
+      //   obj: $("input[placeholder], [placeholder], *[placeholder]").parent(),
+      //   color: "#f00", 
+      //   fontSize: "14px"
+      // });
 	
   </script>
 
